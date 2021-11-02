@@ -16,17 +16,22 @@ Build Qeeqbox Honeypots base image
 Build Qeeqbox Honeypots general image
 -------------------------------------
 
+``cd`` into ``deployment/general``:
+
+.. code-block:: bash
+
+    cd deployment/general
+
 Create honeypot exec script:
 
 .. code-block:: bash
 
     cp -v service/run.sh{.example,}
 
-``cd`` into ``src/qeeqbox-honeypots`` and then execute the following command:
+Then execute the following command to build the general image:
 
 .. code-block:: bash
 
-    cd deployment/general
     podman build -t extra2000/qeeqbox-honeypots-general -f Dockerfile .
 
 Create Podman Network (the ``qeeqboxnet``)
