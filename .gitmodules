@@ -1,0 +1,3 @@
+[submodule "src/qeeqbox-honeypots"]
+	path = src/qeeqbox-honeypots
+	url = https://github.com/extra2000/qeeqbox-honeypots.git
