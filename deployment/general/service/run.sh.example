@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+/usr/local/bin/python3 -m honeypots --setup mysql:3306 --config /etc/honeypots/config.json

@@ -1,0 +1,10 @@
+configmaps/*
+!configmaps/*.example
+
+configs/*
+!configs/*.example
+
+service/*
+!service/*.example
+
+qeeqbox-honeypots-general.yaml
